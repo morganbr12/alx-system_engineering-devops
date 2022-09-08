@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z}
+echo {a..z}{a..z} | head 00 | tail -64
