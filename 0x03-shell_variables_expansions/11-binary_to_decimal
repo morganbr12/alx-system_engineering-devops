@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%0${10}d\n" $(dc -e "$BINARY 2op")
+printf "%0${10}d\n" $(dc -e "$BINARY 10op")
